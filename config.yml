@@ -1,0 +1,54 @@
+servers:
+  - 10.0.0.78
+  - 10.0.0.79
+default_healthcheck_path: /status
+services:
+  - name: api-customers
+    port: 3330
+  - name: api-orders
+    port: 3009
+    healcheck_path: /status
+  - name: api-products
+    port: 3332
+  - name: api-quotes
+    port: 3334
+  - name: api-credit
+    port: 3335
+  - name: api-history
+    port: 3337
+  - name: api-cmx
+    port: 3340
+  - name: api-calendar
+    port: 3341
+  - name: integracao-toa
+    port: 3000
+  - name: api-lista-casamento
+    port: 3001
+  - name: integracao-buonny
+    port: 3002
+  - name: api-qrcode
+    port: 3003
+  - name: api-gcweb
+    port: 3004
+  - name: integracao-intelipost
+    port: 3005
+  - name: servico-comunicacao
+    port: 3006
+  - name: integracao-elasticsearch
+    port: 3007
+  - name: api-clientes
+    port: 3008
+  - name: api-filiais
+    port: 3009
+  - name: api-produtos
+    port: 3010
+  - name: api-pedidos
+    port: 3011
+  - name: api-pagamentos
+    port: 3012
+  - name: integracao-tramontina
+    port: 3013
+  - name: integracao-energy
+    port: 3014
+  - name: integracao-virtualgate
+    port: 3015
