@@ -2,6 +2,11 @@
 This is a little python2 program that can be used like a service that checks for pre configured docker swarm services and update nginx.conf if any changes are detected.
 
 
+sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+yum install -y python3.6 yaml
+
+
+
 How to Execute like a service:
 
 Create the file /lib/systemd/system/healthchecker.service
@@ -24,3 +29,6 @@ systemctl start healthchecker.service
 systemctl status healthchecker.service
 
 systemctl enable healthchecker.service
+
+
+
