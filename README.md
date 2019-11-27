@@ -7,6 +7,7 @@ yum install -y python3.6 yaml
 
 
 
+
 How to Execute like a service:
 
 Create the file /lib/systemd/system/healthchecker.service
