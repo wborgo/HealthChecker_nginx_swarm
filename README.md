@@ -1,6 +1,6 @@
 # HealthChecker_nginx_swarm
 This is a little python3 program that can be used like a service that checks for pre configured docker swarm services and update nginx.conf if any changes are detected.
-
+This program works with a installed Nginx in a CentOS 7
 
 sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 yum install -y python3.6 yaml
